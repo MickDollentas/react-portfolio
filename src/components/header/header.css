@@ -41,13 +41,14 @@ header {
 /******** ME ********/
 
 .me {
-  width: 22rem;
-  height: 30rem;
+  width: 90%;
+  height: auto;
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 4rem;
+  margin-top: 0;
   overflow: hidden;
+  padding: 5rem 1.5rem 0 1.5rem;
 }
 
 /******** Scroll Down ********/
@@ -59,4 +60,21 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
+}
+
+/******* Media Queries (Tablets) *******/
+@media screen and (max-width: 1024px) {
+  header {
+    height: 68vh;
+  }
+}
+
+/******* Media Queries (Mobile) *******/
+@media screen and (max-width: 600px) {
+  header{
+    height: 100vh;
+  }
+  .header_socials, .scroll_down {
+    display: none;
+  }
 }
