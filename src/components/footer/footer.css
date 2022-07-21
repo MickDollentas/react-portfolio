@@ -1,0 +1,29 @@
+footer {
+  background: var(--white);
+  padding: 3rem 0;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 7rem;
+}
+
+.permalinks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin: 0 auto 3rem;
+}
+
+.footer_copyright {
+  margin-bottom: 4rem;
+}
+
+
+
+/******* Media Queries (Mobile) *******/
+@media screen and (max-width: 600px) {
+  .permalinks {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}

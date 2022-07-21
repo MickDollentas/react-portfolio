@@ -8,9 +8,9 @@ function Header() {
   return (
     <header>
       <div className="container header_container">
-        <h5>Hello I'm</h5>
+        <h5>Hi I'm</h5>
         <h1>Michael Dollentas</h1>
-        <h5 className="text-light">Front-End Developer</h5>
+        <h5 className="text-light">Web Developer</h5>
         <CTA />
         <HeaderSocial />
 

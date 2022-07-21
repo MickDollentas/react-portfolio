@@ -1,6 +1,6 @@
 .portfolio_container {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(3,1fr);
   gap: 2.5rem;
 }
 
@@ -34,3 +34,18 @@
   justify-content: center;
 }
 
+/******* Media Queries (Tablets) *******/
+@media screen and (max-width: 1024px) {
+  .portfolio_container {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+  }
+}
+
+/******* Media Queries (Mobile) *******/
+@media screen and (max-width: 600px) {
+  .portfolio_container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
